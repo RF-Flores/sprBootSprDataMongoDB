@@ -9,16 +9,16 @@ This project was made for a test challenge for a recruitment process, considerin
 ## Setting up MongoDB locally
   - Download from https://www.mongodb.com/try/download/community
   - Install (custom installation, make sure all server and client features are selected)
-  - Keep Service configuration as default for ease of use
+  - Keep Service configuration as default for ease of use<br/>
     ![service_configuration](https://i.ibb.co/5v5tYSn/img.png)
   - (Optional) Install compass
   - After installation check windows services to see if the service is up
 Notes: use mongoDB old shell or install the new shell to perform DB operations manually (e.g: insert data, show dbs)
   - Create a database named "data4deals"
   - Create a collection named "merchant" and a collection named "Campaign"
-  - using compass GUI, add the following validation to merchant collection:
+  - using compass GUI, add the following validation to merchant collection:<br/>
     ![merchant_collection_schema_validation](https://i.ibb.co/dD5GRNF/img-1.png)
-  - using compass GUI, add the following validation to campaign collection:
+  - using compass GUI, add the following validation to campaign collection:<br/>
     ![campaign_collection_schema_validation](https://i.ibb.co/jvGxmgV/img-2.png)
 ## Deployment (manual process)
 
