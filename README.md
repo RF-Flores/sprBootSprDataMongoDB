@@ -31,8 +31,18 @@
     ![img_2.png](img_2.png)
 
 ###Deployment (manual process)
+Note: No path configuration was done, in order to tomcat deploy with root URL (see postman collection), rename generated war to ROOT.war. Delete ROOT folder in tomcat/webapps
+- Before deploying make sure tomcat is not running and delete any previous deployment of this project
+- Run *mvn clean install* command on the project root folder
+- Copy the generated WAR file (eg: T:\Project\target\rfChallenge-0.0.1-SNAPSHOT.war) to tomcat webapps folder and see the notes above.
+- Start tomcat
 
 
 ###Final remarks
-Implementation of any currency value should be done with BigDecimal for precision values
+- Implementation of any currency value should be done with BigDecimal for precision values<br/>
+- Deployment process can be improved with CI/CD pipelines (eg. Jenkings pipeline)
+- Improve postman collection to not use hardcoded values
+- Fix the root url path for the webapp endpoints in a more graceful manner
 
+###Aditional resources
+Postman collection: https://www.postman.com/ricfflores/workspace/sprbootsprdatamongodb-workspace/overview 
