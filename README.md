@@ -39,6 +39,11 @@ Note: No path configuration was done, in order to tomcat deploy with root URL (s
 
 
 ###Final remarks
+- Tests need to be improved, too basic: 
+  - Using mocks
+  - Check the returned content
+  - Create DB integration tests
+- Both campaign and merchant entities have string ID i/o int (as per defined requirements)
 - Implementation of any currency value should be done with BigDecimal for precision values<br/>
 - Deployment process can be improved with CI/CD pipelines (eg. Jenkings pipeline)
 - Improve postman collection to not use hardcoded values
