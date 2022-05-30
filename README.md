@@ -43,3 +43,6 @@ To deploy this project run
 - Deployment process can be improved with CI/CD pipelines (eg. Jenkings pipeline)
 - Improve postman collection to not use hardcoded values
 - Fix the root url path for the webapp endpoints in a more graceful manner
+
+## Aditional resources
+Postman collection: https://www.postman.com/ricfflores/workspace/sprbootsprdatamongodb-workspace/overview 
